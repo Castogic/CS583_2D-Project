@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - PlantableSpot
+  - PlantingSpot
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Mob
+  - Water
+  - UI
+  - NPC
+  - Crops
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Map
+  m_SortingLayers:
+  - name: Water
+    uniqueID: 1883128413
+    locked: 0
+  - name: Ground
+    uniqueID: 215914545
+    locked: 0
+  - name: Path
+    uniqueID: 4252496959
+    locked: 0
+  - name: Path1
+    uniqueID: 509502661
+    locked: 0
+  - name: GroundObj
+    uniqueID: 2368359695
+    locked: 0
+  - name: Path2
+    uniqueID: 2012137861
+    locked: 0
+  - name: Walls
+    uniqueID: 2921811515
+    locked: 0
+  - name: Bushes
+    uniqueID: 521890317
+    locked: 0
+  - name: Objects
+    uniqueID: 1187373267
+    locked: 0
+  - name: Player
+    uniqueID: 2128783565
+    locked: 0
+  - name: Trees
+    uniqueID: 2819513877
+    locked: 0
+  - name: Shadows
+    uniqueID: 2958038127
+    locked: 0
+  - name: Fences
+    uniqueID: 1777367033
+    locked: 0
+  - name: Objects2
+    uniqueID: 1299877887
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Fire
+    uniqueID: 2942439267
+    locked: 0
+  - name: Spells
+    uniqueID: 3960794771
+    locked: 0

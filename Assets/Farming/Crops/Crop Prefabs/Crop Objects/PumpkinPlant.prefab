@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5183424508893583560
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5183424508893583558}
+  - component: {fileID: 5183424508893583561}
+  m_Layer: 0
+  m_Name: PumpkinPlant
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5183424508893583558
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5183424508893583560}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.630697, y: -42.457245, z: -3.0089595}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5183424508893583561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5183424508893583560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fde0b1da4e6965546a5b15b67c859096, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentStage: 0
+  timeUntilNextGrowth: 0
+  seedPrefab: {fileID: 3466220069418334127, guid: ed4424fad4bb6f048a1bdb67cdd2ba18, type: 3}
+  stage1Prefab: {fileID: 7368871832525822094, guid: da0a58d0b820bb24987e0edb6dba1fb2, type: 3}
+  stage2Prefab: {fileID: 5908457587283300734, guid: 02246e4a5ffac5a4cb3ed1389696bf33, type: 3}
+  stage3Prefab: {fileID: 4777414483675876375, guid: 8ea205d29ff06e745b34c3945458f0e0, type: 3}
+  fullyGrownPrefab: {fileID: 6839328620744712264, guid: 5626b61be0489a2418b1611c37998c9e, type: 3}

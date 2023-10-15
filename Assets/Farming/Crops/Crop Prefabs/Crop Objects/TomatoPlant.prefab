@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1847967592765040314
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1847967592765040316}
+  - component: {fileID: 1847967592765040317}
+  m_Layer: 0
+  m_Name: TomatoPlant
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1847967592765040316
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1847967592765040314}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.630697, y: -42.457245, z: -3.0089595}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1847967592765040317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1847967592765040314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fde0b1da4e6965546a5b15b67c859096, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentStage: 0
+  timeUntilNextGrowth: 0
+  seedPrefab: {fileID: 3817095347623633864, guid: 27789d3c1c03c624a9a020de879e909a, type: 3}
+  stage1Prefab: {fileID: 4287011126634027107, guid: fa401c14d55654b44b97c591c2d8cb3f, type: 3}
+  stage2Prefab: {fileID: 7136156484087676298, guid: fb4c15cdd7cd62e4aa965128de1088b8, type: 3}
+  stage3Prefab: {fileID: 731301656258297312, guid: 29961ef702cf6194593e95ea6f76b928, type: 3}
+  fullyGrownPrefab: {fileID: 5088131679983357404, guid: 3497bab98370bc94f8c39cfc2e71ec6c, type: 3}

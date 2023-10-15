@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748cd8173fdc442479f3439d58259f06, type: 3}
+  m_Name: SlimeFarmer
+  m_EditorClassIdentifier: 
+  npcName: Dan
+  firstTimeDialogue:
+  - 'Oh hi, tall pointy-eared one! Don''t worry, I''m not a bad slime-wait you don''t
+    even seem scared of me... You''re not from around here, are you? '
+  - Well that's none of my business to pry into. I'm Dan, a farmer around these parts!
+    If you ever want to buy some seeds off of me, I'm your slime!
+  - Here, take a few carrot seeds as a greeting gift! You can plant them by selecting
+    them and pressing `E` above the soil here.
+  regularDialogue:
+  - Unfortunately, I've only got carrot seeds in stock right now. Interested in some?
+  canOpenShop: 1

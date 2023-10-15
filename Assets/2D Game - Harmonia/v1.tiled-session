@@ -1,0 +1,227 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "Insects-butterfly3-flying around-24 frames-150x106.tsx",
+    "automapping.whileDrawing": true,
+    "expandedProjectPaths": [
+        "."
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "Atlas-Props-sheet1 collection.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 0.33,
+            "scaleInEditor": 1
+        },
+        "Atlas-Props-sheet1.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 0.33
+        },
+        "Atlas-Props-sheet2.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 0.33
+        },
+        "Atlas-Props-sheet3.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 0.75
+        },
+        "C:/Users/arthu/Downloads/EPIC RPG World Pack - Grass Land 2.0 v1.4/TiledMap Editor new/TiledMap Editor Example - grass land 2.0.tmx": {
+            "scale": 0.75,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1293.3333333333333,
+                "y": 1369.3333333333333
+            }
+        },
+        "C:/Users/arthu/Downloads/EPIC RPG World Pack - Grass Land 2.0 v1.4/TiledMap Editor new/Tilesets/Atlas-Props-sheet1.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "C:/Users/arthu/Downloads/EPIC RPG World Pack - Grass Land 2.0 v1.4/TiledMap Editor new/Tilesets/Beach-transition tiles between coast platform and beach.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        },
+        "C:/Users/arthu/Downloads/EPIC RPG World Pack - Grass Land 2.0 v1.4/TiledMap Editor new/Tilesets/Tileset - wall1 - transparency.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/arthu/Downloads/EPIC RPG World Pack - Grass Land 2.0 v1.4/TiledMap Editor new/Tilesets/Tileset - wall1.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/arthu/Downloads/EPIC RPG World Pack - Grass Land 2.0 v1.4/TiledMap Editor new/Tilesets/Tileset-Terrain-new grass.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/arthu/Downloads/EPIC RPG World Pack - Grass Land 2.0 v1.4/TiledMap Editor new/Tilesets/beach - no thick foam.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/arthu/Downloads/EPIC RPG World Pack - Grass Land 2.0 v1.4/TiledMap Editor new/Tilesets/beach - with thick foam.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/arthu/Downloads/EPIC RPG World Pack - Grass Land 2.0 v1.4/TiledMap Editor new/Tilesets/hole1.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/arthu/Downloads/EPIC RPG World Pack - Grass Land 2.0 v1.4/TiledMap Editor new/Tilesets/hole2.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/arthu/Downloads/EPIC RPG World Pack - Grass Land 2.0 v1.4/TiledMap Editor new/Tilesets/hole3.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/arthu/Downloads/EPIC RPG World Pack - Grass Land 2.0 v1.4/TiledMap Editor new/Tilesets/platform - grass - coast.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/arthu/Downloads/EPIC RPG World Pack - Grass Land 2.0 v1.4/TiledMap Editor new/Tilesets/platform - grass to water.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/arthu/Downloads/EPIC RPG World Pack - Grass Land 2.0 v1.4/TiledMap Editor new/Tilesets/platform - water to grass - river orientation.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/arthu/Downloads/Forest.tmx": {
+            "scale": 0.25,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1076,
+                "y": 1100
+            }
+        },
+        "C:/Users/arthu/Downloads/Forest.tmx#Paths": {
+            "scaleInDock": 1
+        },
+        "C:/Users/arthu/Downloads/Forest.tmx#outdoors": {
+            "scaleInDock": 1
+        },
+        "C:/Users/arthu/Downloads/Forest.tmx#untitled tile sheet2": {
+            "scaleInDock": 1
+        },
+        "C:/Users/arthu/OneDrive/Documents/SDSU Work/Senior/Fall 23/CS583/Custom Outside tileset.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/arthu/OneDrive/Documents/SDSU Work/Senior/Fall 23/CS583/aesthetic exterior.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/arthu/OneDrive/Documents/SDSU Work/Senior/Fall 23/CS583/cave_daisyextras.tsx": {
+            "scaleInDock": 1
+        },
+        "Insects-butterfly2-flying around-24 frames-150x106.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Insects-butterfly3-flying around-24 frames-150x106.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Insects-mosquito flying around-14 frames-150x106.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "atlas 2 collection.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 0.25,
+            "scaleInEditor": 1
+        },
+        "atlas 3.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 0.25,
+            "scaleInEditor": 1
+        },
+        "cabin.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 0.25,
+            "scaleInEditor": 1
+        },
+        "free version.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "test atlas 1.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "town i guess.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 4
+        },
+        "wind cartoonish fx-288X64- 48frames.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "world.tmx": {
+            "expandedGroupLayers": [
+                13,
+                22,
+                14,
+                45
+            ],
+            "expandedObjectLayers": [
+                15,
+                26,
+                64,
+                22,
+                27,
+                20,
+                23,
+                25,
+                14,
+                24,
+                58
+            ],
+            "scale": 0.75,
+            "selectedLayer": 55,
+            "viewCenter": {
+                "x": 531.9999999999999,
+                "y": 1518.6666666666665
+            }
+        }
+    },
+    "last.externalTilesetPath": "C:/Users/arthu/OneDrive/Documents/SDSU Work/Senior/Fall 23/CS583",
+    "last.imagePath": "C:/Users/arthu/Downloads/EPIC RPG World Pack - Grass Land 2.0 v1.4/Props/Animated props",
+    "map.height": 100,
+    "map.lastUsedFormat": "tmx",
+    "map.width": 100,
+    "openFiles": [
+        "town i guess.tsx",
+        "free version.tsx",
+        "C:/Users/arthu/Downloads/EPIC RPG World Pack - Grass Land 2.0 v1.4/TiledMap Editor new/TiledMap Editor Example - grass land 2.0.tmx",
+        "world.tmx",
+        "Atlas-Props-sheet1.tsx",
+        "Atlas-Props-sheet2.tsx",
+        "Atlas-Props-sheet3.tsx",
+        "Atlas-Props-sheet1 collection.tsx",
+        "test atlas 1.tsx",
+        "atlas 2 collection.tsx",
+        "atlas 3.tsx",
+        "cabin.tsx",
+        "wind cartoonish fx-288X64- 48frames.tsx",
+        "Insects-butterfly3-flying around-24 frames-150x106.tsx",
+        "Insects-butterfly2-flying around-24 frames-150x106.tsx",
+        "Insects-mosquito flying around-14 frames-150x106.tsx"
+    ],
+    "project": "v1.tiled-project",
+    "recentFiles": [
+        "town i guess.tsx",
+        "free version.tsx",
+        "C:/Users/arthu/Downloads/EPIC RPG World Pack - Grass Land 2.0 v1.4/TiledMap Editor new/TiledMap Editor Example - grass land 2.0.tmx",
+        "world.tmx",
+        "Atlas-Props-sheet1.tsx",
+        "Atlas-Props-sheet2.tsx",
+        "Atlas-Props-sheet3.tsx",
+        "Atlas-Props-sheet1 collection.tsx",
+        "test atlas 1.tsx",
+        "atlas 2 collection.tsx",
+        "atlas 3.tsx",
+        "cabin.tsx"
+    ],
+    "tileset.lastUsedFilter": "Tiled tileset files (*.tsx *.xml)",
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 106,
+        "width": 150
+    },
+    "tileset.type": 0
+}
