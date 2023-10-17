@@ -9,6 +9,11 @@ public class CoinManager : MonoBehaviour
     private int targetCoinCount = 0; // The target coin count for counting animation.
     private float countingSpeed = 3.0f; // Speed of the counting animation.
 
+    public float soundRepeatDelay = 0.05f; // Set it to the desired delay in seconds.
+
+    public AudioSource coinSound;
+    public AudioSource repeatCoinSound;
+
     private void Start()
     {
         // Ensure the Text element is assigned in the Inspector.
@@ -60,21 +65,33 @@ public class CoinManager : MonoBehaviour
     // Coroutine for the counting animation.
     private IEnumerator CountCoinsAnimation()
     {
+        coinSound.Play();
         int startCount = coinCount;
         float timer = 0.0f;
+        float lastSoundTime = -soundRepeatDelay; // Initialize lastSoundTime to ensure the sound plays initially.
 
         while (timer < 1.0f)
         {
             timer += Time.deltaTime * countingSpeed;
 
             // Interpolate the coin count for the animation.
-            coinCount = Mathf.RoundToInt(Mathf.Lerp(startCount, targetCoinCount, timer));
+            int newCoinCount = Mathf.RoundToInt(Mathf.Lerp(startCount, targetCoinCount, timer));
+
+            // Check if the coin count has changed and enough time has passed to repeat the sound.
+            if (newCoinCount != coinCount && Time.time - lastSoundTime >= soundRepeatDelay)
+            {
+                repeatCoinSound.Play();
+                lastSoundTime = Time.time; // Update the lastSoundTime.
+            }
+
+            coinCount = newCoinCount;
             UpdateCoinCountText();
 
             yield return null;
         }
 
         // Ensure the displayed count matches the final target count.
+        coinSound.Play();
         coinCount = targetCoinCount;
         UpdateCoinCountText();
     }

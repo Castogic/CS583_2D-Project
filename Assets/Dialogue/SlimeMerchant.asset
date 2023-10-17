@@ -17,8 +17,8 @@ MonoBehaviour:
   - Oh, hello there elf! Strange seeing you around these parts. Me? Why I'm Chris,
     a traveling  merchant!
   - I can teach you spells, but we'll need to start from the most basic to the most
-    difficult. The prices of each spell will increase, of course.
+    difficult.
   regularDialogue:
   - I can teach you spells, but we'll need to start from the most basic to the most
-    difficult. The prices of each spell will increase, of course.
+    difficult.
   canOpenShop: 1

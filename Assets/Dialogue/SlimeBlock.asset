@@ -16,6 +16,7 @@ MonoBehaviour:
   firstTimeDialogue:
   - Greetings, traveler. I'm afraid the path ahead is perilous and full of my hostile
     brethren. Prove your worthiness in coin, and I shall let you pass.
+  - Once you reach 3000 coins, I shall let you cross.
   regularDialogue:
   - Once you reach 3000 coins, I shall let you cross.
   canOpenShop: 0

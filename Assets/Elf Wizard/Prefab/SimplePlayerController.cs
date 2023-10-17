@@ -7,6 +7,7 @@ namespace ClearSky
     public class SimplePlayerController : MonoBehaviour
     {
         public InventoryManager inventoryManager;
+        public PlayerHealth playerHealth;
 
         public CropPlanter cropPlanterr;
         public float movePower = 10f;
@@ -48,6 +49,7 @@ namespace ClearSky
 
         // Spell sounds
         public AudioSource[] skillAudioSources = new AudioSource[3];
+        public AudioSource plantCrop;
 
         [SerializeField]
         private TextMeshProUGUI quoteText;
@@ -347,7 +349,7 @@ namespace ClearSky
 
         public void Hurt()
         {
-            if (canHurt) {
+            if (canHurt && alive) {
                 anim.SetTrigger("hurt");
                 /*
                 if (direction == 1)
@@ -407,7 +409,7 @@ namespace ClearSky
                     int quoteLength = deathQuotes.Length;
                     string randomQuote = deathQuotes[Random.Range(0, quoteLength)];
                     quoteText.text = randomQuote;
-                    yield return new WaitForSeconds(15f);
+                    yield return new WaitForSeconds(8f);
                     // Hide the quote
                     quoteText.text = "";
 
@@ -418,6 +420,7 @@ namespace ClearSky
                     alive = true;
                 }
                 fadeOut = false;
+                playerHealth.isDead = false;
             }
         }
 
@@ -465,9 +468,11 @@ namespace ClearSky
                     {
                         cropController.Harvest();
                     }
-                    else if ( (cropController.IsCropNotPlanted() == false) && (inventoryManager.HasCarrotSeed() == true))
+                    else if ( (cropController.IsCropNotPlanted() == false) && (inventoryManager.HasSeed() == true))
                     {
-                        cropController.Plant();
+                        string nameOfPlant = inventoryManager.chosenCrop;
+                        plantCrop.Play();
+                        cropController.Plant(nameOfPlant);
                     }
                 }
             }

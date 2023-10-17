@@ -17,6 +17,8 @@ public class InventoryManager : MonoBehaviour
     [SerializeField]
     public GameObject selectedSeedBag;
     public ItemType selectedSeedType = ItemType.Unknown;
+    public string chosenCrop = "";
+    public AudioSource learnSpell;
 
     public enum ItemType
     {
@@ -294,33 +296,34 @@ public class InventoryManager : MonoBehaviour
         }
     }
 
-    public bool HasCarrotSeed()
+    public bool HasSeed()
     {
-        // Loop through the hotbar to check if there's a CarrotSeed
-        for (int i = 0; i < hotbar.Count; i++)
-        {
-            Item item = hotbar[i];
-            if (item.itemName == "CarrotSeed")
-            {
-                if (item.quantity > 1)
-                {
-                    item.RemoveItem(); // Decrement the quantity.
-                }
-                else
-                {
-                    // Remove the item from the hotbar.
-                    hotbar[i] = new Item("", null);
-                    // Remove the corresponding icon.
-                    Destroy(itemIcons[i]);
-                    itemIcons.RemoveAt(i);
-                }
+        // Get the currently selected slot's index.
+        int currentIndex = selectedSlotIndex;
 
-                UpdateInventoryUI(); // Update the UI.
-                return true; // Found a CarrotSeed
+        // Check if the current slot has a seed item.
+        Item currentItem = hotbar[currentIndex];
+        if (currentItem.itemName == "CarrotSeed" || currentItem.itemName == "TomatoSeed" ||
+            currentItem.itemName == "PumpkinSeed" || currentItem.itemName == "YamSeed")
+        {
+            if (currentItem.quantity > 1)
+            {
+                currentItem.RemoveItem(); // Decrement the quantity.
             }
+            else
+            {
+                // Remove the item from the hotbar.
+                hotbar[currentIndex] = new Item("", null);
+                // Remove the corresponding icon.
+                Destroy(itemIcons[currentIndex]);
+            }
+
+            chosenCrop = currentItem.itemName;
+            UpdateInventoryUI(); // Update the UI.
+            return true; // Found a seed in the current slot
         }
 
-        return false; // CarrotSeed not found
+        return false; // Seed not found in the current slot
     }
 
     public bool HasScroll()
@@ -342,9 +345,8 @@ public class InventoryManager : MonoBehaviour
                 hotbar[currentIndex] = new Item("", null);
                 // Remove the corresponding icon.
                 Destroy(itemIcons[currentIndex]);
-                itemIcons.RemoveAt(currentIndex);
             }
-
+            learnSpell.Play();
             UpdateInventoryUI(); // Update the UI.
             return true; // Found a scroll
         }

@@ -13,6 +13,7 @@ namespace ClearSky {
         private SimplePlayerController playerController; // Reference to SimplePlayerController.
         public bool restoreHP = false; // Trigger full health
         public bool isAttacked = false;
+        public bool isDead = false;
 
         private void Start()
         {
@@ -73,7 +74,8 @@ namespace ClearSky {
                 currentHealth -= 0.5f; // Taking half heart damage.
                 playerController.canHurt = true;
                 UpdateUI();
-                if (currentHealth <= 0f) {
+                if (currentHealth <= 0f && !isDead) {
+                    isDead = true;
                     if (playerController != null) {
                         playerController.alive = false;
                         playerController.Die();

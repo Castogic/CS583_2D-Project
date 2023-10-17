@@ -11,13 +11,14 @@ public class DialogueManager : MonoBehaviour
     public Image dialogueBackground;
     public Image npcIcon;
     private string[] currentDialogue;
-    public float typingSpeed = 0.02f;
+    public float typingSpeed = 0.01f;
 
     private int currentLine = 0;
     private bool isTyping = false;
     public bool dialogueActive = false; // Flag to track if dialogue is active
     public SimplePlayerController playerController;
     private NPCInteraction npcInteraction;
+    public AudioSource dialogueCharacter;
 
     private void Start()
     {
@@ -59,6 +60,7 @@ public class DialogueManager : MonoBehaviour
         {
             dialogueText.text += letter;
             yield return new WaitForSeconds(typingSpeed);
+            dialogueCharacter.Play();
         }
         isTyping = false;
     }

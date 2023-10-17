@@ -7,12 +7,13 @@ public class NPCInteraction : MonoBehaviour
     private DialogueManager dialogueManager;
     private InventoryManager inventoryManager;
     public ShopManager farmShopManager;
-    public ShopManager merchantShopManager;
+    public SlimeMerchantShop merchantShopManager;
     public bool isSlimeBlock = false;
     public bool isSlimeFarmer = false;
     public bool isSlimeMerchant = false;
     public CoinManager coinManager; // Reference to the CoinManager script.
     private bool hasInteracted = false;
+    public AudioSource unlockBridge;
 
     private void Start()
     {
@@ -49,6 +50,7 @@ public class NPCInteraction : MonoBehaviour
             {
                 // Remove the `SlimeBlock` from the scene
                 Destroy(slimeBlock);
+                unlockBridge.Play();
                 
                 // Subtract coins from the player's coin manager
                 coinManager.SubtractCoins(3000);

@@ -8,7 +8,7 @@ public class Item
     public string itemName;
     public Sprite icon;
     public int quantity;
-    public const int maxQuantity = 32; // Maximum quantity for items.
+    public const int maxQuantity = 999; // Maximum quantity for items.
     public GameObject gameObjectWithSeedBag; // Reference to the seed bag game object.
     public Item seedItem; // Reference to the seed item associated with this crop item.
 
@@ -22,7 +22,7 @@ public class Item
     // Function to increment the item quantity.
     public void AddItem()
     {
-        if (quantity < maxQuantity) // Max quantity is 32.
+        if (quantity < maxQuantity) // Max quantity is 999
         {
             quantity++;
         }
@@ -30,7 +30,7 @@ public class Item
 
     public void RemoveItem()
     {
-        if (quantity < maxQuantity) // Max quantity is 32.
+        if (quantity > 1)
         {
             quantity--;
         }
